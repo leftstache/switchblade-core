@@ -1,5 +1,5 @@
 # switchblade-core
-The core to the java autoconfiguration library "Switchblade".
+The core to the java autoconfiguration library "Switchblade", an alternative to Spring Boot.
 
 - `mvn install`
 - include dependency in another project
