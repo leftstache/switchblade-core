@@ -16,3 +16,9 @@ The core to the java autoconfiguration library "Switchblade".
 - `@Component` classes implementing the `BeanListener` interface will have its `postConstruct` invoked immediately after any `@Component`'s `@PostConstruct` method is called.
 - `@Component` classes implementing the `ApplicationListener` interface will have the appropriate methods invoked when the app has started or been closed.
 - Dependency Injection is handled by Guice. So use the @Inject annotations as you normally would. `@Component` is SINGLETON scoped.
+
+TODO
+----
+
+- Need a way to create configurators
+- Annotating an annotation with `@Component` should treat that annotation as `@Component`. For example, in swiwtchblade-jetty classes annotated with `@Endpoint` shouldn't need to be annotated with `@Component` as well.
