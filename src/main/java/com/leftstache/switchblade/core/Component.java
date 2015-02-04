@@ -1,5 +1,7 @@
 package com.leftstache.switchblade.core;
 
+import com.google.inject.*;
+
 import javax.lang.model.element.*;
 import java.lang.annotation.*;
 
@@ -9,5 +11,6 @@ import java.lang.annotation.*;
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE, ElementType.ANNOTATION_TYPE})
+@ScopeAnnotation
 public @interface Component {
 }

@@ -8,7 +8,6 @@ import javax.inject.*;
  * @author Joel Johnson
  */
 @Component
-@Singleton
 public class TestAppListener implements ApplicationListener {
 	@Override
 	public void started(SwitchbladeApplication<?> application) {

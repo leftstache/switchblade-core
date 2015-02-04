@@ -101,6 +101,7 @@ public class SwitchbladeApplication<T> implements Closeable, AutoCloseable, Modu
 	@Override
 	public void configure(Binder binder) {
 		//TODO: allow the constructor to set overrides for bindings
+		binder.bindScope(Component.class, Scopes.SINGLETON);
 	}
 
 	private static Set<String> findPackagesToScan(String appPackage) throws IOException {
