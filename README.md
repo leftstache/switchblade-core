@@ -20,5 +20,6 @@ The core to the java autoconfiguration library "Switchblade".
 TODO
 ----
 
+- Tests :D
 - Need a way to create configurators
 - Annotating an annotation with `@Component` should treat that annotation as `@Component`. For example, in swiwtchblade-jetty classes annotated with `@Endpoint` shouldn't need to be annotated with `@Component` as well.
